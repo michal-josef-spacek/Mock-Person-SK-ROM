@@ -3,7 +3,10 @@ TODO
 1. Prvni verze:
    http://www.emimino.cz/diskuse/nejcastejsi-cikanska-jmena-71357/strankovani/5/
 2. Resit aby ty dve jmena nemohly byt stejne.
-3.
+3. Predelat testy.
+4. Predelat na Mock::Person::Common.
+5. Pridat zensky tvar jmen.
+6. 
 
 Applied
 =======
