@@ -1,5 +1,5 @@
 ---
-abstract: 'Generate random sets of Romani names.'
+abstract: 'Generate random sets of Slovak Romani names.'
 author:
   - 'Michal Špaček <skim@cpan.org>'
 build_requires:
@@ -20,17 +20,18 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Mock-Person-ROM
+name: Mock-Person-SK-ROM
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
   Exporter: 0
   Readonly: 0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-ROM
-  homepage: https://github.com/tupinek/Mock-Person-ROM
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-SK-ROM
+  homepage: https://github.com/tupinek/Mock-Person-SK-ROM
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Mock-Person-ROM
+  repository: git://github.com/tupinek/Mock-Person-SK-ROM
 version: 0.01

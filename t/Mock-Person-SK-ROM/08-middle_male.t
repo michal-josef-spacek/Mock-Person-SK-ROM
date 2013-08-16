@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 # Modules.
-use Mock::Person::ROM qw(middle_male);
+use Mock::Person::SK::ROM qw(middle_male);
 use List::MoreUtils qw(any);
 use Test::More 'tests' => 3;
 use Test::NoWarnings;
@@ -13,6 +13,6 @@ my $ret1 = middle_male();
 like($ret1, qr{^\w+$}, 'Middle male must be one word.');
 
 # Test.
-my @middle_males = @Mock::Person::ROM::middle_male;
+my @middle_males = @Mock::Person::SK::ROM::middle_male;
 my $ret2 = any { $ret1 eq $_ } @middle_males;
 is($ret2, 1, 'Middle male is from middle male names list.');

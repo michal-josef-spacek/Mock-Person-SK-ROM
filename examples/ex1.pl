@@ -6,7 +6,7 @@ use warnings;
 
 # Modules.
 use Encode qw(encode_utf8);
-use Mock::Person::ROM qw(name);
+use Mock::Person::SK::ROM qw(name);
 
 # Error.
 print encode_utf8(name())."\n";

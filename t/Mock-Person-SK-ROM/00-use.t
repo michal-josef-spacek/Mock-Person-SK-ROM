@@ -9,8 +9,8 @@ use Test::NoWarnings;
 BEGIN {
 
 	# Test.
-	use_ok('Mock::Person::ROM');
+	use_ok('Mock::Person::SK::ROM');
 }
 
 # Test.
-require_ok('Mock::Person::ROM');
+require_ok('Mock::Person::SK::ROM');

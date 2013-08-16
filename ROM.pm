@@ -1,4 +1,4 @@
-package Mock::Person::ROM;
+package Mock::Person::SK::ROM;
 
 # Pragmas.
 use base qw(Exporter);
@@ -376,11 +376,11 @@ __END__
 
 =head1 NAME
 
-Mock::Person::ROM - Generate random sets of Romani names.
+Mock::Person::SK::ROM - Generate random sets of Romani names.
 
 =head1 SYNOPSIS
 
- use Mock::Person::ROM qw(first_male first_female last_male last_female
+ use Mock::Person::SK::ROM qw(first_male first_female last_male last_female
          middle_male middle_female name name_female name_male);
  my $first_male = first_male();
  my $first_female = first_female();
@@ -477,7 +477,7 @@ Returns random female name.
 
  # Modules.
  use Encode qw(encode_utf8);
- use Mock::Person::ROM qw(name);
+ use Mock::Person::SK::ROM qw(name);
 
  # Error.
  print encode_utf8(name())."\n";
@@ -493,10 +493,10 @@ Returns random female name.
 
  # Modules.
  use Encode qw(encode_utf8);
- use Mock::Person::ROM;
+ use Mock::Person::SK::ROM;
 
  # Get all last male names.
- my @last_males = @Mock::Person::ROM::last_male;
+ my @last_males = @Mock::Person::SK::ROM::last_male;
 
  # Print out.
  print sort map { encode_utf8($_)."\n" } @last_males;
@@ -520,7 +520,7 @@ L<Mock::Person::RU>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Mock-Person-ROM>
+L<https://github.com/tupinek/Mock-Person-SK-ROM>
 
 =head1 AUTHOR
 

@@ -6,16 +6,16 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'Generate random sets of Romani names.';
+abstract 'Generate random sets of Slovak Romani names.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
-name 'Mock-Person-ROM';
+name 'Mock-Person-SK-ROM';
 requires 'Exporter' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=Mock-Person-ROM';
-resources 'homepage' => 'https://github.com/tupinek/Mock-Person-ROM';
-resources 'repository' => 'git://github.com/tupinek/Mock-Person-ROM';
+	'?Name=Mock-Person-SK-ROM';
+resources 'homepage' => 'https://github.com/tupinek/Mock-Person-SK-ROM';
+resources 'repository' => 'git://github.com/tupinek/Mock-Person-SK-ROM';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.05;
 test_requires 'List::MoreUtils' => 0;

@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 # Modules.
-use Mock::Person::ROM qw(last_male);
+use Mock::Person::SK::ROM qw(last_male);
 use List::MoreUtils qw(any);
 use Test::More 'tests' => 3;
 use Test::NoWarnings;
@@ -13,6 +13,6 @@ my $ret1 = last_male();
 like($ret1, qr{^\w+$}, 'Last male must be one word.');
 
 # Test.
-my @last_males = @Mock::Person::ROM::last_male;
+my @last_males = @Mock::Person::SK::ROM::last_male;
 my $ret2 = any { $ret1 eq $_ } @last_males;
 is($ret2, 1, 'Last male is from last male names list.');
