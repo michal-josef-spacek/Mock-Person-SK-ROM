@@ -10,6 +10,7 @@ abstract 'Generate random sets of Slovak Romani names.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Mock-Person-SK-ROM';
+readme_from 'ROM.pm';
 requires 'Exporter' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
