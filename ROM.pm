@@ -7,6 +7,7 @@ use utf8;
 use warnings;
 
 # Modules.
+use List::MoreUtils qw(none);
 use Readonly;
 
 # Constants.

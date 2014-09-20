@@ -12,6 +12,7 @@ license 'bsd';
 name 'Mock-Person-SK-ROM';
 readme_from 'ROM.pm';
 requires 'Exporter' => 0;
+requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Mock-Person-SK-ROM';
