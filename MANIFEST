@@ -16,6 +16,7 @@ MANIFEST			This list of files
 META.yml
 README
 ROM.pm
+SIGNATURE
 t/Mock-Person-SK-ROM/00-use.t
 t/Mock-Person-SK-ROM/01-version.t
 t/Mock-Person-SK-ROM/02-pod_coverage.t
