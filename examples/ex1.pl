@@ -11,5 +11,5 @@ use Mock::Person::SK::ROM qw(name);
 # Error.
 print encode_utf8(name())."\n";
 
-# Output like.
-# TODO
+# Output like:
+# Kevin Mižigar
