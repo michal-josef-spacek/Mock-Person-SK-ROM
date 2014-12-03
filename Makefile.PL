@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Generate random sets of Slovak Romani names.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Mock-Person-SK-ROM';
 readme_from 'ROM.pm';
