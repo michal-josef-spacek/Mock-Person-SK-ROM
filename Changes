@@ -1,6 +1,6 @@
 0.02
  - Fix comment (thanks Mohammad S Anwar).
- - Update Module::Install to 1.14 version.
+ - Update Module::Install to 1.16 version.
 
 0.01 2014-09-20T10:46:28+02:00
  - First version.
