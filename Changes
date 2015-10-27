@@ -1,6 +1,7 @@
 0.02
  - Fix comment (thanks Mohammad S Anwar).
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Improve SEE ALSO section in doc.
  - Update Module::Install to 1.16 version.
  - Update copyright years.
 
