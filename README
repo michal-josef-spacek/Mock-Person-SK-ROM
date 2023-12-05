@@ -320,7 +320,7 @@ EXAMPLE2
      # Žolták
 
 DEPENDENCIES
-    Exporter, Readonly.
+    Exporter, List::Util, Readonly.
 
 SEE ALSO
     Task::Mock::Person

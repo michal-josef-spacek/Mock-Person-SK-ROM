@@ -721,6 +721,7 @@ Returns random female name.
 =head1 DEPENDENCIES
 
 L<Exporter>,
+L<List::Util>,
 L<Readonly>.
 
 =head1 SEE ALSO

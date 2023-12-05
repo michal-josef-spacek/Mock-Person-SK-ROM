@@ -1,4 +1,5 @@
 0.03
+ - Fix DEPENDENCIES section in doc.
  - Fix use lib '.' in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Move bugtracker to github.
