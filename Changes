@@ -1,4 +1,4 @@
-0.03
+0.03 2023-12-05T13:18:52+01:00
  - Fix DEPENDENCIES section in doc.
  - Fix use lib '.' in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
