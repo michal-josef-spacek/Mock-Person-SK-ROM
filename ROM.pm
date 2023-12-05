@@ -5,7 +5,7 @@ use strict;
 use utf8;
 use warnings;
 
-use List::MoreUtils qw(none);
+use List::Util 1.33 qw(none);
 use Readonly;
 
 # Constants.
