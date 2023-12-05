@@ -414,47 +414,78 @@ L<cs.wikipedia.org - female names|http://cs.wikipedia.org/wiki/Seznam_nej%C4%8Da
 
 =head1 SUBROUTINES
 
-=over 8
+=head2 C<first_male>
 
-=item B<first_male()>
+ my $first_male = first_male();
 
-Returns random first name of male person.
+Get random first name of male person.
 
-=item B<first_female()>
+Returns string.
 
-Returns random first name of female person.
+=head2 C<first_female>
 
-=item B<last_male()>
+ my $first_female = first_female();
 
-Returns random last name of male person.
+Get random first name of female person.
 
-=item B<last_female()>
+Returns string.
 
-Returns random last name of female person.
+=head2 C<last_male>
 
-=item B<middle_male()>
+ my $last_male = last_male();
 
-Returns random middle name of male person.
+Get random last name of male person.
 
-=item B<middle_female()>
+Returns string.
 
-Returns random middle name of female person.
+=head2 C<last_female>
 
-=item B<name([$sex])>
+ my $last_female = last_female();
 
-Recieves scalar with sex of the person ('male' or 'female') and returns
-scalar with generated name.
-Default value of $sex variable is undef, that means random name.
+Get random last name of female person.
 
-=item B<name_male()>
+Returns string.
 
-Returns random male name.
+=head2 C<middle_male>
 
-=item B<name_female()>
+ my $middle_male = middle_male();
 
-Returns random female name.
+Get random middle name of male person.
 
-=back
+Returns string.
+
+=head2 C<middle_female>
+
+ my $middle_female = middle_female();
+
+Get random middle name of female person.
+
+Returns string.
+
+=head2 C<name>
+
+ my $name = name($sex);
+
+Get name defined with sex of the person ('male' or 'female').
+Default value of C<$sex> variable is undef, that means random name.
+
+Returns string.
+
+=head2 C<name_female>
+
+ my $female_name = name_female();
+
+Get random female name.
+
+Returns string.
+
+=head2 C<name_male>
+
+ my $male_name = name_male();
+
+Get random male name.
+
+Returns string.
 
 =head1 VARIABLES
 
@@ -462,9 +493,11 @@ Returns random female name.
 
 =item B<TYPE>
 
- Name type.
- Possible values are: 'two', 'three'.
- Default value is 'two'.
+Name type.
+
+Possible values are: 'two', 'three'.
+
+Default value is 'two'.
 
 =back
 
