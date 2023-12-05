@@ -30,7 +30,7 @@ requires:
   perl: 5.8.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-SK-ROM
-  homepage: https://github.com/tupinek/Mock-Person-SK-ROM
+  homepage: https://github.com/michal-josef-spacek/Mock-Person-SK-ROM
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Mock-Person-SK-ROM
+  repository: git://github.com/michal-josef-spacek/Mock-Person-SK-ROM
 version: '0.03'

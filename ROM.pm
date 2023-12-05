@@ -735,7 +735,7 @@ Install the Mock::Person modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Mock-Person-SK-ROM>
+L<https://github.com/michal-josef-spacek/Mock-Person-SK-ROM>
 
 =head1 AUTHOR
 
