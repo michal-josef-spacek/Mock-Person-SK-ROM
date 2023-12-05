@@ -71,11 +71,9 @@ VARIABLES
              Default value is 'two'.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::SK::ROM qw(name);
 
@@ -86,11 +84,9 @@ EXAMPLE1
      # Kevin Mižigar
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::SK::ROM;
 
