@@ -3,6 +3,7 @@
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.21 version.
  - Update author github username.
+ - Update copyright years.
 
 0.02 2015-10-27T11:36:54+01:00
  - Fix comment (thanks Mohammad S Anwar).
