@@ -380,6 +380,7 @@ Mock::Person::SK::ROM - Generate random sets of Romani names.
 
  use Mock::Person::SK::ROM qw(first_male first_female last_male last_female
          middle_male middle_female name name_female name_male);
+
  my $first_male = first_male();
  my $first_female = first_female();
  my $last_male = last_male();

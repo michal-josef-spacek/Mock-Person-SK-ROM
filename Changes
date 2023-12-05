@@ -2,6 +2,7 @@
  - Fix DEPENDENCIES section in doc.
  - Fix use lib '.' in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Improve SYNOPSIS section in doc.
  - Move bugtracker to github.
  - Rewrite from List::MoreUtils to List::Util.
  - Update Module::Install to 1.21 version.
